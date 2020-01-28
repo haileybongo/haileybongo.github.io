@@ -1,12 +1,11 @@
 ---
 layout: post
 title:      "The Choice of Software Engineering"
-date:       2020-01-28 03:30:42 +0000
+date:       2020-01-27 22:30:42 -0500
 permalink:  the_choice_of_software_engineering
 ---
 
 
-# The Choice of Software
 
 In many cases, it takes people a while to figure out what career they want to pursue; my route so far has been an unconventional one, but I am feeling confident that software engineering is the right next step for me. I currently have been in the workforce for four years, and have come to a point in my career where I am looking for something that aligns more with the skills that I enjoy and that I can find more importance in. 
 In my current career as a healthcare systems analyst, I work as an interface between clinicians and the medical record software that is used to document information, track patient care, store and report on data, and much more. Reflecting upon my career, I realized that I most enjoy my time at work when I am tasked with figuring out how to translate a real world clinical scenario into the software. This often involves creating and designing a new workflow in the system through a process of planning, trial, and error. I find it very rewarding to build something new in the program and then see it come to life in a meaningful way. Although my current career can be fulfilling in some ways, my technical role and knowledge is limited to the specific software I was trained in, and I desire to have the reach to do much more. My natural inclination for problem solving and getting my hands into the system lead me to become interested in software engineering as a career and expand upon the parts of my job that I enjoy. 
