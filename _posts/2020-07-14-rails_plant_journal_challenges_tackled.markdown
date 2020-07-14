@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Plant Journal: Challenges Tackled"
-date:       2020-07-14 21:32:03 +0000
+date:       2020-07-14 17:32:04 -0400
 permalink:  rails_plant_journal_challenges_tackled
 ---
 
@@ -55,7 +55,11 @@ Within this form, you can see that the new plant instance is already associated 
 
 This is where the params got a little tricky; in order to have the option to select from a drop down or create a new item on creation of a journal entry, I needed conditional parameters. To achieve this, I checked the parameters within the controller for the existence of information in the plant_id key and water_id key. If there was information in one of those, I removed the corresponding plant or water attributes key as to not attempt to create a new instance from them. If there was not information in the plant_id or water_id key, I then removed those from params, letting the plant or water attributes through to create a new instance and automatically associate it with the journal being created. This is how my conditional parameters ended up:
 
-```def journal_params
+
+
+```
+
+def journal_params
         pid = params[:journal][:plant_id]
         wid = params[:journal][:water_id]
 
