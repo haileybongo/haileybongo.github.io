@@ -103,7 +103,9 @@ My next feature to tackle was the ability to display plants that need to be wate
 
 At this point, I had a number of days since each of this user's plants listed in journal entries have been watered for each specific entry. If the days since watering was larger than the number of weeks (converted to days) between waterings, the journal entry is added to the needs_water array:
 
-```if journal.water.weeks * 7 < days_since_watered
+```
+
+if journal.water.weeks * 7 < days_since_watered
                 needs_water << journal
             else
             end
