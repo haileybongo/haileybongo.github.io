@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Working Through Redux"
-date:       2020-11-04 07:04:13 +0000
+date:       2020-11-04 02:04:14 -0500
 permalink:  working_through_redux
 ---
 
 
-After having learned many web development concepts and frameworks, I thought tackling Redux would be par for the course. Once I started my lessions, I quickly learned that Redux was going to take a little bit of getting used to! If you are like me and are having trouble grasping the fundamental concepts of Redux - don't worry. It gets better. And I am going to try to break it down a bit using my final project, Playlister.
+After having learned many web development concepts and frameworks, I thought tackling Redux would be par for the course. Once I started my lessons, I quickly learned that Redux was going to take a little bit of getting used to! If you are like me and are having trouble grasping the fundamental concepts of Redux - don't worry. It gets better. And I am going to try to break it down a bit using my final project, Playlister.
 
 On a very basic level, the reasoning to use Redux is that this format will store your data in a place that takes a bit of work to get to, which in turn, protects it. Once you set up your Redux "store", this will become your source of truth for your front end data. For my Playlister app, my store contains saved playlist information, song information, and search result information. All of this data comes from either my back end or the external Spotify API, so it is not being manipulated by basic user input. 
 
