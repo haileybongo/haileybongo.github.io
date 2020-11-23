@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Binding and "this""
-date:       2020-11-23 20:32:05 +0000
+date:       2020-11-23 15:32:06 -0500
 permalink:  binding_and_this
 ---
 
