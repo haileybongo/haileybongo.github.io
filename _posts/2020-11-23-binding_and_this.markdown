@@ -8,7 +8,7 @@ permalink:  binding_and_this
 
 One tricky concept when learning programming is the concept of "this". It can sometimes be difficult to determine the context of "this" and what it is referring to within functions and within our applications. Examining where the function is called can be very helpful in determining "this". Here are the basics:
 
-* When JavaScript function is called, it has its own associated object of an execution context that can be accessed by "this"
+* When JavaScript function is called, it has its own associated object of an execution context that can be accessed by keyword "this"
 * When "this" is used inside a function, it is representing the execution context
 * "This" can either be implicit, meaning the code does not specifically say what "this" is, or it can be explicit, meaning the code specifically tells the function what context "this" should refer to
 
